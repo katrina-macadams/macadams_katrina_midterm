@@ -17,9 +17,23 @@ body {
     margin: 0px;
  }
  #hero_image {
-    margin: 0px;
-    padding: 90px 14px 90px 14px; 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 90px 14px 20px 14px; 
     background-color: mediumslateblue;
+    }
+
+#hero_image p {
+    margin-bottom: 90px;
+}
+
+    .button {
+        background-color: rgb(255, 96, 122);
+        border-radius: 5px;
+        padding: 10px 12px 10px 12px;
+        text-align: left;
+        margin: 10px 5px;
     }
 
     .text_box {
@@ -36,17 +50,26 @@ body {
     .img_box {
         background-color: rgb(213, 107, 255);
         border-radius: 5px;
-        padding: 88px 14px 88px 14px;
+        padding: 88px 14px 10px 14px;
         text-align: left;
         margin: 10px 5px;
+    }
+
+    
+    .img_box p {
+        margin-bottom: 78px;
     }
 
 
     .chakra_img {
         background-color:rgb(213, 107, 255);
         margin: 10px 0px 10px 0px;
-        padding: 36px 14px 36px 14px;
+        padding: 36px 14px 10px 14px;
         border-radius: 5px;
+    }
+
+    .chakra_img p {
+        margin-bottom: 110px;
     }
 
     .chakra_text {
@@ -122,31 +145,9 @@ body {
    
     /* Tablet Screen Size */
     @media screen and (min-width: 768px) { 
-
-
-        #hero_image {
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-
-        #products div {
-            padding: 65px;
-            background-color: rgb(255, 56, 109);
-        }
-
-       #image {
-        display: none;
-       }
-
-       #services div {
-        padding: 75px 75px;
-       }
-
-       #footer {
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
-    }
+
+  
 
     /* Desktop Screen Size */
 
