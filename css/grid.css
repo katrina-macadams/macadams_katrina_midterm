@@ -94,6 +94,12 @@ img, embed, object, video, picture {
  .m-col-span-6	{grid-column: span 6 / span 6;}
  .m-col-span-7	{grid-column: span 7 / span 7;}
  .m-col-span-8	{grid-column: span 8 / span 8;}
+ .m-col-span-9	{grid-column: span 9 / span 9;}
+ .m-col-span-10	{grid-column: span 10 / span 10;}
+ .m-col-span-11	{grid-column: span 11 / span 11;}
+ .m-col-span-12	{grid-column: span 12 / span 12;}
+ .m-col-span-full {grid-column: 1 / -1;}
+ 
 
  .m-col-start-1	{grid-column-start: 1;}
  .m-col-start-2	{grid-column-start: 2;}
@@ -103,6 +109,10 @@ img, embed, object, video, picture {
  .m-col-start-6	{grid-column-start: 6;}
  .m-col-start-7	{grid-column-start: 7;}
  .m-col-start-8	{grid-column-start: 8;}
+ .m-col-start-9	{grid-column-start: 9;}
+ .m-col-start-10	{grid-column-start: 10;}
+ .m-col-start-11	{grid-column-start: 11;}
+ .m-col-start-12	{grid-column-start: 12;}
 
  .m-col-end-1	{grid-column-end: 1;}
  .m-col-end-2	{grid-column-end: 2;}
@@ -112,6 +122,7 @@ img, embed, object, video, picture {
  .m-col-end-6	{grid-column-end: 6;}
  .m-col-end-7	{grid-column-end: 7;}
  .m-col-end-8	{grid-column-end: 8;}
+ 
  
  
 
