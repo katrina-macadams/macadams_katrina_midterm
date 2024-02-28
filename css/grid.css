@@ -49,9 +49,8 @@ img, embed, object, video, picture {
    .grid-con { 
      display: grid;
      grid-template-columns: repeat(4, minmax(0, 1fr));
-     grid-column-gap: 30px;
      max-width: 1200px;
-     margin: 0px 14px auto;
+     margin: 0px auto;
      padding-left: 15px;
      padding-right: 15px;
   }
