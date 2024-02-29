@@ -140,6 +140,7 @@ img, embed, object, video, picture {
         grid-column-gap: 30px;
         padding-left: 15px;
         padding-right: 15px;
+        margin: 0px auto;
      }
   
  
