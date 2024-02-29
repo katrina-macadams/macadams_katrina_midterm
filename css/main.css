@@ -79,12 +79,13 @@ body {
         border-radius: 5px;
     }
 
-    .circle {
+    .svg {
         background-color:rgb(255, 96, 122);
         margin: 10px 90px 10px 90px;
         padding: 35px;
-        border-radius: 50%;
+        border-radius: 5px;
         font-size: 12px;
+        text-align: center;
     }
 
   
@@ -145,6 +146,7 @@ body {
    
     /* Tablet Screen Size */
     @media screen and (min-width: 768px) { 
+    
     }
 
   
@@ -152,35 +154,7 @@ body {
     /* Desktop Screen Size */
 
     @media screen and (min-width: 1200px) { 
-
-     
-
-        #hero_image {
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-
-        #products div {
-            padding: 75px;
-            background-color: rgb(255, 56, 109);
-        }
-
-        #services div {
-            padding: 75px 75px;
-           }
-
-
-        #image  {
-            display: block;
-            background-color:mediumslateblue;
-        }
-
-        #footer {
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
-        
-
+      
   
 }
 
