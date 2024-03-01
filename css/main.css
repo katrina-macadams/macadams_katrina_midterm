@@ -1,6 +1,6 @@
 body {
     color: #ffffff;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
  }
 
  #main_logo {
@@ -20,12 +20,13 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    padding: 90px 14px 20px 14px; 
+    padding: 40px 12px 14px 12px; 
     background-color: mediumslateblue;
     }
 
 #hero_image p {
-    margin-bottom: 90px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
     .button {
@@ -50,9 +51,9 @@ body {
     .img_box {
         background-color: rgb(213, 107, 255);
         border-radius: 5px;
-        padding: 88px 14px 10px 14px;
+        padding: 58px 14px 20px 14px;
         text-align: left;
-        margin: 10px 5px;
+        margin: 10px 5px 10px 5px;
     }
 
     
@@ -77,6 +78,10 @@ body {
         margin: 10px 0px 10px 0px;
         padding: 36px 14px 36px 14px;
         border-radius: 5px;
+    }
+
+    .chakra_text h3 {
+        margin: 11px 0px 11px 0px;
     }
 
     .svg {
@@ -118,9 +123,9 @@ body {
     .svg_con {
         background-color: rgb(255, 96, 122);
         border-radius: 5px;
-        padding: 36px 4px 54px 4px;
+        padding: 36px 0px 54px 4px;
         text-align: left;
-        margin: 10px 2.5px;
+        margin: 10px 1px 10px 4px;
     }
 
     .svg_con h3 {
@@ -130,8 +135,8 @@ body {
 
     .svg_box {
         background-color:rgb(255, 96, 122);
-        margin: 8px 8px 8px 4px;
-        padding: 8px;
+        margin: 8px 4px 12px 10px;
+        padding: 8px 4px 8px 4px;
         border-radius: 5px;
         font-size: 12px;
     }
@@ -146,7 +151,6 @@ body {
    
     /* Tablet Screen Size */
     @media screen and (min-width: 768px) { 
-    
     }
 
   
@@ -154,7 +158,9 @@ body {
     /* Desktop Screen Size */
 
     @media screen and (min-width: 1200px) { 
-      
+       
+        
+
   
 }
 
